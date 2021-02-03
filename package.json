@@ -1,0 +1,25 @@
+{
+  "name": "mcg-exercise",
+  "version": "1.0.0",
+  "description": "MCG Health coding exercise: make a function to pretty up numbers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {},
+    "transformIgnorePatterns": ["/node_modules/"],
+    "moduleFileExtensions": ["js"],
+    "testEnvironment": "jest-environment-node"
+  },
+  "keywords": [],
+  "author": "Chris Wall <tx.chriswall@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "jest": "^26.6.3"
+  }
+}
